@@ -1,0 +1,28 @@
+:root {
+    --TM_Orange: #ed6338;
+    --TM_DarkBlue: #00283c;
+}
+
+hr{
+    border: 0.5px solid var(--TM_DarkBlue);
+}
+
+#entiteit{
+    border-collapse: collapse;
+    border: 1px solid grey
+}
+
+caption{
+    caption-side: bottom;
+}
+
+td, th{
+    text-align: center;
+    border: 1px solid grey;
+    padding: 15px;
+}
+
+th{
+    background-color: var(--TM_DarkBlue);
+    color: white;
+}

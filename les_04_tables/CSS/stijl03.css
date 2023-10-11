@@ -1,0 +1,40 @@
+:root {
+    --TM_Orange: #ed6338;
+    --TM_Cyan: #009cab;
+    --TM_DarkBlue: #00283c;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid #00283c ;
+    text-align: center;
+    margin:4px;
+    height: 50px;
+}
+.topRow>th{
+    background-color: grey;
+}
+
+.col100{
+    width: 100px;
+}
+
+.col200{
+    width: 200px;
+}
+
+.greenCel{
+    background-color: lightgreen;
+}
+
+.redCel{
+background-color: tomato;
+}

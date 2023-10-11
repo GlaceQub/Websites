@@ -1,0 +1,33 @@
+:root {
+    --TM_Orange: #ed6338;
+    --TM_Cyan: #009cab;
+    --TM_DarkBlue: #00283c;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    border: 1px solid var(--TM_DarkBlue);
+    border-collapse: collapse;
+}
+
+th, td{
+    border: #00283c solid 1px;
+    text-align: center;
+}
+.topRow>th{
+    background-color: var(--TM_Orange) !important;
+    color: white;
+}
+
+.firstCol{
+    background-color: var(--TM_Cyan);
+    width: 75px;
+    color: white;
+}
+
+tr{
+    height: 50px;
+}
